@@ -1,0 +1,97 @@
+/* Latihan Metode Link Style/Ekternal Style */
+body{
+    background-image: url(bckG3.jpg);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 2px solid chartreuse;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: chartreuse;
+    font-style: italic;
+    font-size: 150%;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+a:link{
+    color: midnightblue;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: darkcyan;
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #ffff;
+    text-align: center;
+    font-size: 28px;
+}
+.button:hover{background-color: orange;}
+
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666; 
+}
+.tabel{
+    background-color: #363333;
+    padding-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    width: auto;
+    margin:0 auto;
+}
+
+th, td {
+    border-bottom: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+  
+th:first-child,
+td:first-child {
+    width: 50px;
+}
+  
+th:not(:first-child),
+td:not(:first-child) {
+    width: 300px;
+}
+
+thead{
+    background-color: rgb(0, 214, 214);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(0, 255, 8);
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #ff0000; /* Ubah warna latar saat hover */
+    color: white; /* Ubah warna teks saat hover */}

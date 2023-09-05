@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+
+        /*menengahkan gambar*/
+        display: block;
+        margin: 0px auto 0px auto;
+    }
+    /*selector dengan nama tag*/
+    h1{
+        color: darkred;
+    }
+    /*selector id*/
+    #judul{
+        color: chartreuse;
+    }
+    /*selector class*/
+    .tengah{
+        align-self: center;
+        color: aqua;
+    }
+    /*multy selector*/
+    h2,h3,h4{
+        color: midnightblue;
+    }
+    /* lebih spesifik lagi bisa*/
+    h2.tengah{
+        color: darkkhaki;
+    }
+</style>
+<body>
+    <img src="square.png" alt="">
+    <!--id memberi tanda khusus elemen, tidak boleh sama-->
+    <h1 id="judul">Golden Hour</h1>
+    <!-- class= bisa dipakai berkali2, kalau id tidak digunakan berkali2-->
+    <h1 class="tengah">Golden Hour 2</h1>
+    <h2 class="tengah">Hello</h2>
+    <h3>Hello 2</h3>
+</body>
+</html>
